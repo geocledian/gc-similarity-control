@@ -274,7 +274,7 @@ Vue.component('gc-similarity', {
         return this.gcCrop;
       },
       set: function(value) {
-        this.$root.$emit("simCropChange", value);
+        this.$root.$emit("cropChange", value);
       }
     },
     entity: {
@@ -283,7 +283,7 @@ Vue.component('gc-similarity', {
         return this.gcEntity;
       },
       set: function(value) {
-        this.$root.$emit("simEntityChange", value);
+        this.$root.$emit("entityChange", value);
       }
     },
     verification: {
